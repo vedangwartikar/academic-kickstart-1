@@ -41,7 +41,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: Python_Workshop_Meetups
+slides: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -54,4 +54,4 @@ projects: []
 math: true
 ---
 
-Python has a large number of really cool modules that people don't know about. These are quite helpful. People often tend to program the hard way since they don't know about the existence of these modules. Such examples can be the itertools module, the secrets module to generate secure random numbers etc.
+Python has a large number of really cool modules that people don't know about. These are quite helpful. People often tend to program the hard way since they don't know about the existence of these modules. Such examples can be the itertools module, the secrets module to generate secure random numbers etc. Get a copy of the talk slides [here](https://bit.ly/python-meetups-sept)
