@@ -1,6 +1,6 @@
 ## Hidden Secrets of Python 
 
-## Get a copy of this notebook here [https://bit.ly/python-meetups-sept](https://bit.ly/python-meetups-sept)
+## Get a copy of this notebook [here](https://bit.ly/python-meetups-sept)
 
 
 ## F-Strings 
