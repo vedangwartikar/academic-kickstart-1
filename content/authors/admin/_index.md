@@ -18,7 +18,7 @@ organizations:
   url: "https://unipune.ac.in/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Cyber Security, Deep Learning and System Programming.
 
 interests:
 - Cyber Security
@@ -67,5 +67,5 @@ user_groups:
 - Visitors
 ---
 
-I am a programming enthusiast pursuing computer engineering in my final year at Pune Institute of Computer Technology. My prime areas of focus are cybersecurity & deep learning. I am a FOSS guy, passionate primarily about Linux. You can find me hanging out on GitHub, contributing to awesome open-source projects. I write technical blogs on a variety of topics that interest me.	  
+I am a programming enthusiast pursuing Computer Engineering in my final year at Pune Institute of Computer Technology. My prime areas of focus are Cyber Security & Deep Learning. I am a FOSS guy, passionate primarily about Linux. You can find me hanging out on GitHub, contributing to awesome open-source projects. I write technical blogs on a variety of topics that interest me.	  
  
