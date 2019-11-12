@@ -1,4 +1,4 @@
-## Hidden Secrets of Python 
+# Hidden Secrets of Python 
 
 ## Get a copy of this notebook [here](https://bit.ly/python-meetups-sept)
 
