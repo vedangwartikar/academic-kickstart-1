@@ -1,15 +1,18 @@
 ---
-title: 'Academic: the website builder for Hugo'
-subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
+title: 'What is Zip Slip?'
+subtitle: ''
 summary: Create a beautifully simple website in under 10 minutes.
 authors:
 - admin
 tags:
-- Academic
+- security
+- vulnerability 
+- exploit 
+
 categories:
-- Demo
-date: "2016-04-20T00:00:00Z"
-lastmod: "2019-04-17T00:00:00Z"
+
+date: "2018-09-20T10:00:00Z"
+lastmod: "2019-10-17T00:00:00Z"
 featured: false
 draft: false
 
@@ -19,7 +22,7 @@ draft: false
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 image:
   placement: 2
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
+  caption: 'Zip Slip'
   focal_point: ""
   preview_only: false
 
@@ -31,74 +34,44 @@ image:
 projects: []
 ---
 
-**Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 _widgets_, _themes_, and _language packs_ included!**
 
-[Check out the latest **demo**](https://academic-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://sourcethemes.com/academic/#expo) of personal, project, and business sites.
 
-- 👉 [**Get Started**](#install)
-- 📚 [View the **documentation**](https://sourcethemes.com/academic/docs/)
-- 💬 [**Ask a question** on the forum](https://discourse.gohugo.io)
-- 👥 [Chat with the **community**](https://spectrum.chat/academic)
-- 🐦 Twitter: [@source_themes](https://twitter.com/source_themes) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithAcademic](https://twitter.com/search?q=%23MadeWithAcademic&src=typd)
-- 💡 [Request a **feature** or report a **bug**](https://github.com/gcushen/hugo-academic/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://sourcethemes.com/academic/docs/update/) and [Release Notes](https://sourcethemes.com/academic/updates/)
-- :heart: **Support development** of Academic:
-  - ☕️ [**Donate a coffee**](https://paypal.me/cushen)
-  - 💵 [Become a backer on **Patreon**](https://www.patreon.com/cushen)
-  - 🖼️ [Decorate your laptop or journal with an Academic **sticker**](https://www.redbubble.com/people/neutreno/works/34387919-academic)
-  - 👕 [Wear the **T-shirt**](https://academic.threadless.com/)
-  - :woman_technologist: [**Contribute**](https://sourcethemes.com/academic/docs/contribute/)
+Zip Slip was a vulnerability found in the file extraction mechanism employed in programming languages. It was discovered and responsibly disclosed by the Snyk Security team ahead of a public disclosure on 5th June 2018, and affected thousands of projects, including ones from HP, Amazon, Apache, Pivotal. The vulnerability is prevalent in Java, where there is no central library offering high level processing of archives. It was also observed in Go & Python. Zip slip caused havoc on its public disclosure. Zip Slip allowed for remote code execution, thereby granting shell privileges to an adversary. The vulnerability can affect other formats like `tar`, `jar`, `war`,`cpio`,`apk`,`rar` etc.
 
-{{< figure src="https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png" title="Academic is mobile first with a responsive design to ensure that your site looks stunning on every device." >}}
+Consider a zip file (`foo.zip`) with two files bundled in it - `foo.text` and `bar.text`
 
-**Key features:**
+```
+chaitanya@zipslip$ zip -sf foo.zip
+Archive contains:
+  foo.text
+  bar.text
+Total 2 entries (100 bytes)
+```
 
-- **Page builder** - Create *anything* with [**widgets**](https://sourcethemes.com/academic/docs/page-builder/) and [**elements**](https://sourcethemes.com/academic/docs/writing-markdown-latex/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://sourcethemes.com/academic/docs/writing-markdown-latex/), [**Jupyter**](https://sourcethemes.com/academic/docs/jupyter/), or [**RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://sourcethemes.com/academic/themes/)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://en.wikibooks.org/wiki/LaTeX/Mathematics) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 15+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+The -sf flag scans for files and lists the contents of the archive. However, if a maliciously crafted file is bundled in the zip, and if it is improperly handled during extraction then it may lead to severe problem like remote code execution.
 
-## Themes
+Consider a zip file (`malicious.zip`) with two files (one is the RCE shell script and the other is an ordinary text file)
 
-Academic comes with **automatic day (light) and night (dark) mode** built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the [Demo](https://academic-demo.netlify.com/) to see it in action! Day/night mode can also be disabled by the site admin in `params.toml`.
+```
+chaitanya@zipslip$ zip -sf malicious.zip 
+Archive contains:
+  foo.text
+  ../../../../../../../../../tmp/rce.sh
+Total 2 entries (560 bytes)
+```
 
-[Choose a stunning **theme** and **font**](https://sourcethemes.com/academic/themes/) for your site. Themes are fully [customizable](https://sourcethemes.com/academic/docs/customization/#custom-theme).
+As soon as this zip is extracted, foo.text would be extracted within the same folder as of the zip file. However, `rce.sh` would be extracted to the tmp folder. The `../../` part before the file name ensures that the file path eventually hits / if it is within a subdirectory of high depth, and then stores the rce.sh file to the tmp folder. Now, a simple mechanism to execute this shell script would lead to remote code execution. This can overwrite configuration files on the system as well. Usually web applications that deal with zip file uploads rely on the file handling APIs native to a programming language.
 
-## Ecosystem
+Consider this Java code snippet,
 
-* **[Academic Admin](https://github.com/sourcethemes/academic-admin):** An admin tool to import publications from BibTeX or import assets for an offline site
-* **[Academic Scripts](https://github.com/sourcethemes/academic-scripts):** Scripts to help migrate content to new versions of Academic
+```
+1   Enumeration<ZipEntry> entries = zip.getEntries();
+2   while (entries.hasMoreElements()) {
+3      ZipEntry e = entries.nextElement();
+4      File f = new File(destinationDir, e.getName());
+5      InputStream input = zip.getInputStream(e);
+6      IOUtils.copy(input, write(f));
+7   }
+```
 
-## Install
-
-You can choose from one of the following four methods to install:
-
-* [**one-click install using your web browser (recommended)**](https://sourcethemes.com/academic/docs/install/#install-with-web-browser)
-* [install on your computer using **Git** with the Command Prompt/Terminal app](https://sourcethemes.com/academic/docs/install/#install-with-git)
-* [install on your computer by downloading the **ZIP files**](https://sourcethemes.com/academic/docs/install/#install-with-zip)
-* [install on your computer with **RStudio**](https://sourcethemes.com/academic/docs/install/#install-with-rstudio)
-
-Then [personalize and deploy your new site](https://sourcethemes.com/academic/docs/get-started/).
-
-## Updating
-
-[View the Update Guide](https://sourcethemes.com/academic/docs/update/).
-
-Feel free to *star* the project on [Github](https://github.com/gcushen/hugo-academic/) to help keep track of [updates](https://sourcethemes.com/academic/updates).
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md) license.
+On line 4, `e.getName()` is concatenated with the target directory, `dir`, without being validated. At this point, when the zip archive gets to `rce.sh`, it will append the full path (including every `../`) of the zip entry to the target directory resulting in `rce.sh` being written outside of the target directory.
