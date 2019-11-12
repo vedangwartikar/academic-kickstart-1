@@ -47,5 +47,15 @@ date_format = "Jan 2006"
   date_start = "2018-05-01"
   date_end = ""
   description = ""
+  
+[[item]]
+  organization = "University of Illinois at Urbana Champaign"
+  organization_url = "https://nptel.ac.in"
+  title = "Object-Oriented Data Structures in C++ by University of Illinois at Urbana-Champaign"
+  url = "https://illinois.edu"
+  certificate_url = "https://www.coursera.org/account/accomplishments/certificate/XXHQRQBCR2NJ"
+  date_start = "2018-05-01"
+  date_end = ""
+  description = ""
 
 +++
