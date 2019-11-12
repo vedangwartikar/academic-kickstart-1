@@ -30,7 +30,7 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
   focal_point: Right
 
-links: ""
+links: 
 url_code: ""
 url_pdf: ""
 url_slides: "https://bit.ly/python-meetups-sept"
@@ -41,7 +41,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: "Python_Workshop_Meetups"
+slides: Python_Workshop_Meetups
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
