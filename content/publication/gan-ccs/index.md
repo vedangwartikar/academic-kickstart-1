@@ -28,7 +28,7 @@ summary: We propose a new way of generating pseudorandom numbers using generativ
 tags:
 - research
 - ACM 
-- Security
+- security
 
 featured: true
 
