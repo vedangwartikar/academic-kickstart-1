@@ -53,3 +53,5 @@ projects: []
 # Enable math on this page?
 math: true
 ---
+
+Python has a large number of really cool modules that people don't know about. These are quite helpful. People often tend to program the hard way since they don't know about the existence of these modules. Such examples can be the itertools module, the secrets module to generate secure random numbers etc.
