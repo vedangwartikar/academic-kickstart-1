@@ -1,7 +1,7 @@
 ---
 title: 'What is Zip Slip?'
 subtitle: ''
-summary: Create a beautifully simple website in under 10 minutes.
+summary: Know about the Zip Slip vulnerability. 
 authors:
 - admin
 tags:
