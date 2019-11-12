@@ -1,4 +1,19 @@
-# Hidden Secrets of Python 
+---
+title: Hidden Secrets of Python
+summary: Really interesting and useful secrets of Python you should know about. 
+authors: ['Chaitanya Rahalkar','Anushka Virgaonkar']
+tags: ['python','meetups','talk']
+categories: []
+date: "2019-02-05T00:00:00Z"
+slides:
+  # Choose a theme from https://github.com/hakimel/reveal.js#theming
+  theme: black
+  # Choose a code highlighting style (if highlighting enabled in `params.toml`)
+  #   Light style: github. Dark style: dracula (default).
+  highlight_style: dracula
+---
+
+
 
 ## Get a copy of this notebook [here](https://bit.ly/python-meetups-sept)
 

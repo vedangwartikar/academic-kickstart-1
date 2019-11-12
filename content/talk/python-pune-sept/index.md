@@ -13,7 +13,7 @@ summary: Python has a large number of really cool modules that people don't know
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2019-09-28T13:00:00Z"
+date: "2019-09-28T11:00:00Z"
 date_end: ""
 all_day: false
 
