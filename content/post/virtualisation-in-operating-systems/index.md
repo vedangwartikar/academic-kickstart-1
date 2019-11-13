@@ -16,13 +16,7 @@ tags:
 - virtualbox
 ---
 
-
-
-
 Virtualisation is the process of creating a virtual version of a physical object.
-
-
-
 
 Virtualisation is of three types primarily:
 1. Hardware Virtualisation - Based on simulating real hardware. This can be used to run a complete operating system. This can be further subdivided into full and paravirtualisation.
