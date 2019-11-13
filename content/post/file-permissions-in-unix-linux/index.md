@@ -24,7 +24,7 @@ tags:
 ### File Permissions
 
 
-Unix & Linux provides Read(r),Write(w) and Execute(x) permissions to any file on the system.
+Unix & Linux provides Read\(r\),Write(w) and Execute(x) permissions to any file on the system.
 If you `ls -l` every file with its permissions will be shown.
 
 The system is divided into three types - User,Group and others. The r,w,x permissions are assigned to each type. This is well explained by the diagram shown below:
