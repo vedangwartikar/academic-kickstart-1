@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/chairahalkar
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chaitanyarahalkar.tech
+  * I am chairahalkar (https://keybase.io/chairahalkar) on keybase.
+  * I have a public key with fingerprint 8B9F 3DE4 955A 0AAE C01C  69F5 FA51 138D CFAE B33B
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01013da8ef12407c1d61197789db02297fbf1cdf3b0c0aa9694a5bd25bca663427d10a",
+      "fingerprint": "8b9f3de4955a0aaec01c69f5fa51138dcfaeb33b",
+      "host": "keybase.io",
+      "key_id": "fa51138dcfaeb33b",
+      "kid": "01013da8ef12407c1d61197789db02297fbf1cdf3b0c0aa9694a5bd25bca663427d10a",
+      "uid": "38a8211f7c2daaebc328a87624f38319",
+      "username": "chairahalkar"
+    },
+    "service": {
+      "hostname": "chaitanyarahalkar.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1573622520,
+  "expire_in": 157680000,
+  "prev": "f5ccd525280b1f3d2069308d6280a9c2a71d070c53c053e0613c0b1f83bde720",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIrAnicrZJbSBVBGMfXyuiIRhGJdqHOBj4dZGb37O2AL5WVFkaUVF46zc7MnrNq
+u6c9q3mQygoj0CJ6UTAi6UIQgYkPBZWXgiwpygSDQKMkMwyivASaNisJPfTYvOzM
+t7//f//ft/MkbTGXklQYvX9g7WBzelJv141KrrT30s8aXrdJgg/V8OV0/kErCI27
+4XKT8CEeQABFglRqQCEIFAyJDKGmKKpGdCAImmLoBsTEEHWAAUKarAWRpBNB0jGS
+ZTEoKAQCxAd4w7Qi1Ik5puUyW1XXDJHQoCZJiMkoBhDLmiEZSIJQVAk2ENVFUWfC
+qB33FCycjuI027RZjR3C8/H+wf/n3JXzdqKKVAFCQ8ECYXF1LAqsoshC0BBVEWoe
+GKeOhY5QRuMoMh0URRXlyOGPB3j2psrE1Buu181flIusBFpAs12Ko8wp5tiuje0K
+xkRdNxYPeR5uIuaJjlE9/McurJsWYVNliirqxE3b4kOQkdg1PX8oKaIsCJIAAjyt
+jpkODZvWfFlWAVved2iVN0MJYyIxUAU6ZH9FALImApXIrIA0LCAFEqAALIkYSCIF
+MmQbRqqiTqgiAN5r8Khl86Egi4kizDJuRizkVjqUP97dWbKES0rhliYv8m4bl+Jb
+sXAHy14t42prz+ROX0iUH+OvjUXWt78ttHceaiN710SL2ntTW6bi/Tl1XSnFM76y
+QGxq6Oyh0byhrO+XW/xnPxvclfc1H2c6/E76yJt9+eOrU6szwmPCSOvhTEB3dLTh
+vmxu3aP9LR/8z/rqJ1vnbm8baCqdbf4BbpUUFPJkbOJTb+Dl+MabRmNBbd6Wa4PD
+uxMneurKbk4F96zant/0rvFh0Ws8suvEQbPfl+Q/eWpu187mtqePLw6tuBK4l3Wu
+YXbr8vqJ1rutt/N83ZNpyc/lgem+4dH0dnjna+nKjZkvDudcvb756pdvuZ3JW4t/
+RRo4/4NNGfm7Q+d7igq6faV+ted0ahba8BsGIUmn
+=UGD4
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chairahalkar
+
+==================================================================
