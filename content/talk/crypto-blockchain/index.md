@@ -5,7 +5,7 @@ event_url: http://pict.edu
 
 location: Pune Institute of Computer Technology
 address:
-  street:  Wellesley Rd, Shivajinagar
+  street: Survey No. 27, Near, Trimurti Chowk, Bharati Vidyapeeth Campus, Dhankawadi 
   city: Pune
   country: India
 
