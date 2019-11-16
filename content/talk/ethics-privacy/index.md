@@ -3,9 +3,10 @@ title: Ethics for Platforms
 event: COEP MindSpark
 event_url: http://www.mind-spark.org
 
-location: College of Engineering, Pune
+location: College of Engineering
 address:
-  street:  Wellesley Rd, Shivajinagar, Pune
+  street:  Wellesley Rd, Shivajinagar
+  city: Pune
   country: India
 
 summary: The Internet was created to be an open source to get connected to the rest of the world, to share information and bring the world closer. Looking at how we have gone through these years, the Internet has just become a business model. The Internet community is getting wrongly influenced. The government of America has challenged the net neutrality principles.
@@ -20,7 +21,7 @@ all_day: false
 publishDate: ""
 
 authors: ["Chaitanya Rahalkar","Dhaval Gujar"]
-tags: ["ethics","platforms","privacy","social media"]
+tags: ["ethics","platforms","privacy"]
 
 # Is this a featured talk? (true/false)
 featured: false
