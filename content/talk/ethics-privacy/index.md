@@ -9,12 +9,10 @@ address:
   country: India
 
 summary: The Internet was created to be an open source to get connected to the rest of the world, to share information and bring the world closer. Looking at how we have gone through these years, the Internet has just become a business model. The Internet community is getting wrongly influenced. The government of America has challenged the net neutrality principles.
-Companies like Google and Facebook need your private data to generate revenue out of advertisements which is their only source of income. This revenue is invested in improving the user experience and Internet services. But on the other hand they are challenging the Internet ethics. So it is up to the user whether to choose the services which track private data but provide efficient performance or to rely on other services with a bit of degradation in performance. We need a strong association with the authority to challenge everyone who attempts to break the integrity of the Internet. The power of the Internet community can break through all the hindrances. It is just about bringing people together and expanding this community of people sharing the same views on ‘Internet Ethics.’ We need to take strong actions to revert the Internet to days where it was an open, conducive medium to share and express.
-
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2018-07-21T14:00:00Z"
+date: "2018-07-11T14:00:00Z"
 date_end: ""
 all_day: false
 
