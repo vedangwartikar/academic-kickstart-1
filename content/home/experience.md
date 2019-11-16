@@ -27,12 +27,33 @@ date_format = "Jan 2006"
   description = """Working on <i> End-to-End Lung Cancer Screening with Chest Computed Tomography Scans using CNNs and XAI </i> under the guidance of Dr. Bhushan Garware. The project is highly inspired by <a href="https://www.nature.com/articles/s41591-019-0447-x"> this </a> research paper and aims to outperform the current state of the art results.  """
   
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Project Intern"
+  company = "Quick Heal Technologies"
+  company_url = "https://quickheal.com"
+  location = "Pune, India"
+  date_start = "2019-07-12"
+  date_end = ""
+  description = """Working on a Zero trust security framework model that allows corporate employees to work securely from any location eliminating the need of VPNs. Check out the project <a href="https://github.com/chaitanyarahalkar/Quick-Heal-Project">here</a>. """
+
+
+[[experience]]
+  title = "Research Intern"
+  company = "Pune Institute of Computer Technology"
+  company_url = "https://pict.edu"
+  location = "Pune, India"
+  date_start = "2019-05-20"
+  date_end = "2019-07-20"
+  description = """Worked on study of side-channel attacks that target virtualisation level (the lowest level of the software stack)   , where the attacker intends to exploit private information from the set of target virtual machines running on the cloud platform."""
+
+
+[[experience]]
+  title = "Intern"
+  company = "M.V.P.R. Solutions"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Pune, India"
+  date_start = "2019-01-20"
+  date_end = "2019-07-20"
+  description = """Worked on a bank reconciliation project. Designed and deployed Oracle database on a VPS. Developed a backend system using Django framework for the administration panel, that reconciles transaction records of the bank and transaction history of its customers. Used data analytics to provide a statistical overview of the reconciled records."""
+
 
 +++
