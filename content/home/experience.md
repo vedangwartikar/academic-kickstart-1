@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "Persistent Systems"
   company_url = "https://www.persistent.com"
   location = "Pune, India"
-  date_start = "2017-01-01"
+  date_start = "2019-06-06"
   date_end = ""
   description = """Working on End-to-End Lung Cancer Screening with Chest Computed Tomography Scans using CNNs and XAI under the guidance of Dr. Bhushan Garware. The project is highly inspired by Google's research paper and aims to outperform the current state of the art results."""
   
