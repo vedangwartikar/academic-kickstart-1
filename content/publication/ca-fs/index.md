@@ -35,12 +35,12 @@ featured: true
 links:
 - name: Publication Link
   url: 
-url_pdf: 
+url_pdf: https://github.com/chaitanyarahalkar/temporary-uploads/raw/master/IEEE%20Conference-%2020:11:19.pdf
 url_code: ""
 url_dataset: ""
 url_poster: ""
 url_project: ''
-url_slides: ''
+url_slides: 'https://github.com/chaitanyarahalkar/temporary-uploads/raw/master/COMP_26_87_Presentation.pdf'
 url_source: ''
 url_video: ''
 
