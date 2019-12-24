@@ -34,7 +34,7 @@ featured: true
 
 links:
 - name: Publication Link
-  url: 
+  url: https://arxiv.org/abs/1912.10298
 url_pdf: https://github.com/chaitanyarahalkar/temporary-uploads/raw/master/IEEE%20Conference-%2020:11:19.pdf
 url_code: ""
 url_dataset: ""
