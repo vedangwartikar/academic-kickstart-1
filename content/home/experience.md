@@ -17,6 +17,17 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+[experience]]
+  title = "Intern"
+  company = "BigO Data / Continuous Encryption"
+  company_url = "https://continuousencryption.com"
+  location = "Pune, India"
+  date_start = "2019-07-07"
+  date_end = ""
+  description = """Working on the design and development of a secure software-defined perimeter network. Building, a secure and robust SDN interface, supported with high performance aspects.
+"""
+
+
 [[experience]]
   title = "Project Intern"
   company = "Persistent Systems"
@@ -32,7 +43,7 @@ date_format = "Jan 2006"
   company_url = "https://quickheal.com"
   location = "Pune, India"
   date_start = "2019-07-12"
-  date_end = ""
+  date_end = "2019-11-11"
   description = """Working on a Zero trust security framework model that allows corporate employees to work securely from any location eliminating the need of VPNs. Check out the project <a href="https://github.com/chaitanyarahalkar/Quick-Heal-Project">here</a>. """
 
 
