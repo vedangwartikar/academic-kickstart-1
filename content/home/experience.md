@@ -42,7 +42,7 @@ date_format = "Jan 2006"
   company = "Quick Heal Technologies"
   company_url = "https://quickheal.com"
   location = "Pune, India"
-  date_start = "2019-07-12"
+  date_start = "2019-06-29"
   date_end = "2019-11-11"
   description = """Working on a Zero trust security framework model that allows corporate employees to work securely from any location eliminating the need of VPNs. Check out the project <a href="https://github.com/chaitanyarahalkar/Quick-Heal-Project">here</a>. """
 
