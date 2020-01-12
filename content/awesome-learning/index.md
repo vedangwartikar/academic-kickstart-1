@@ -27,6 +27,29 @@ _**Disclaimer**: Some of the links to books on Amazon are affiliate links. If yo
 
 * Table of Contents
 
+- [C](#c)
+- [C++](#c++)
+- [Compilers](#compilers)
+- [Data Science](#data-science)
+- [Docker](#docker)
+- [Game Development](#game-development)
+- [Go](#go)
+- [Git and GitHub](#git-and-github)
+- [Interpreters & Bytecode Virtual Machines](#interpreters--bytecode-virtual-machines)
+- [Java](#java)
+- [JavaScript](#javascript)
+- [Machine Learning](#machine-learning)
+- [MongoDB](#mongodb)
+- [Node.js](#nodejs)
+- [OAuth 2.0 Authorization Framework](#oauth-20-authorization-framework)
+- [OpenGL](#opengl)
+- [Operating Systems](#operating-systems)
+- [Python](#python)
+- [React](#react)
+- [Redis](#redis)
+- [REST](#rest)
+- [Web Development](#web-development)
+
 ---
 
 # C
