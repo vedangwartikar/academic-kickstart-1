@@ -70,4 +70,4 @@ user_groups:
 - Visitors
 ---
 
-I'm a Computer Engineer in the making and a Tech enthusiast at heart. My research interests are Cyber Security & Deep Learning. I am a promoter of Free and Open Source Software, and often tweet and talk about it. I prominently write about Information Security and Computer internals. My passion lies in building things with my power of programming. Check out my noteworthy projects and Open Source project contributions on [GitHub](https://github.com/chaitanyarahalkar).
+I'm a Computer Engineer in the making and a Tech enthusiast at heart. My research interests are Cyber Security & Deep Learning. I am a promoter of Free and Open Source Software, and often tweet and talk about it. I prominently write about Information Security and Computer internals. My passion lies in building things with my power of programming. Check out my noteworthy projects and Open Source contributions on [GitHub](https://github.com/chaitanyarahalkar).
