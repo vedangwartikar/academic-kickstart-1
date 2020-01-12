@@ -70,5 +70,4 @@ user_groups:
 - Visitors
 ---
 
-I am an undergraduate researcher pursuing Computer Engineering in my final year at Pune Institute of Computer Technology. My prime areas of focus are Cyber Security & Deep Learning. I am a FOSS guy, passionate primarily about Linux. You can find me hanging out on GitHub, contributing to awesome open-source projects. I write technical blogs on a variety of topics that interest me.	  
- 
+I'm a Computer Engineer in the making and a Tech enthusiast at heart. My research interests are Cyber Security & Deep Learning. I am a promoter of Free and Open Source Software, and often tweet and talk about it. I prominently write about Information Security and Computer internals. My passion lies in building things with my power of programming. Check out my noteworthy projects and Open Source project contributions on [GitHub](https://github.com/chaitanyarahalkar).
