@@ -1,6 +1,11 @@
 ---
 title: Learning
-tags: learning, resources, courses, tutorials, certificates
+tags: 
+- learning
+- resources
+- courses
+- tutorials
+- certificates
 ---
 
 I love to explore the vast field of Computer Science. I've dabbled with a variety of stuff over the past few years. While doing so, I've had to invest considerable amount of time in digging up resources from the corners of the Web. Also, people often ask me for suggestions regarding tutorials and courses about something they wish to learn.
