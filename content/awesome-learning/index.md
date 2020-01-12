@@ -167,7 +167,6 @@ _**Disclaimer**: Some of the links to books on Amazon are affiliate links. If yo
 - [A Tour of Go](https://tour.golang.org/welcome/1)
 - [Introduction to Go by Michael Van Sickle](https://www.youtube.com/watch?v=YS4e4q9oBaU)
 - [Go Crash Course by Traversy Media](https://www.youtube.com/watch?v=SqrbIlUwR0U)
-- [Concurrency in Golang: A Simple, Practical Example](https://www.youtube.com/watch?v=3atNYmqXyV4)  _(shameless self-promotion)_
 - [Write a Web App in Go by Davy Wybiral](https://www.youtube.com/watch?v=oppb7qE3Uao&list=PLmxT2pVYo5LDMV0epL4z4CUbxvIw6umg_)
 
 ## Advanced
