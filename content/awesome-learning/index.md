@@ -25,10 +25,8 @@ _**Disclaimer**: Some of the links to books on Amazon are affiliate links. If yo
 
 ## Table of Contents
 
-* Table of Contents
-
 - [C](#c)
-- [C++](#c++)
+- [C++](#c-1)
 - [Compilers](#compilers)
 - [Data Science](#data-science)
 - [Docker](#docker)
