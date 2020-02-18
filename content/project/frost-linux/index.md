@@ -1,6 +1,6 @@
 ---
 title: Frost Linux
-summary: A Linux Based Operating System for Developers.
+summary: An Arch Linux Based Distribution for Developers.
 tags:
 - Demo
 date: "2019-07-27T00:00:00Z"
