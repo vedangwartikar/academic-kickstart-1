@@ -6,7 +6,7 @@ authors:
 - Dhaval Gujar
 
 date: "2019-12-12T00:00:00Z"
-doi: ""
+doi: "https://doi.org/10.1109/ICAC347590.2019.9036792"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2019-11-11T00:00:00Z"
@@ -34,7 +34,7 @@ featured: true
 
 links:
 - name: Publication Link
-  url: https://arxiv.org/abs/1912.10298
+  url: https://ieeexplore.ieee.org/document/9036792
 url_pdf: https://github.com/chaitanyarahalkar/temporary-uploads/raw/master/IEEE%20Conference-%2020:11:19.pdf
 url_code: ""
 url_dataset: ""
