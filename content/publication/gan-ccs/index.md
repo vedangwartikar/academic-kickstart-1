@@ -38,7 +38,7 @@ links:
 url_pdf: https://dl.acm.org/ft_gateway.cfm?id=3363265&ftid=2095403&dwn=1&CFID=171413636&CFTOKEN=dcf9cfde35ca9d7d-C4C7A804-E8A2-8FD3-A09D2CF807BE8BE9
 url_code: ""
 url_dataset: ""
-url_poster: "https://github.com/chaitanyarahalkar/temporary-uploads/raw/master/Final-Poster.pdf"
+url_poster: "https://github.com/chaitanyarahalkar/temporary-uploads/raw/master/Final-Poster.png"
 url_project: ''
 url_slides: ''
 url_source: ''
