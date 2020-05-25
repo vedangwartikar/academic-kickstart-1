@@ -59,6 +59,12 @@ social:
 - icon: orcid
   icon_pack: ai 
   link: https://orcid.org/0000-0003-2350-9793
+- icon: gitlab
+  icon_pack: fab
+  link: https://gitlab.com/chaitanyarahalkar
+- icon: mastodon
+  icon_pack: fab
+  link: https://mastodon.technology/@chaitanyarahalkar
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
