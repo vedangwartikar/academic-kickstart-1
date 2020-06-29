@@ -18,12 +18,13 @@ organizations:
   url: "https://unipune.ac.in/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Cyber Security, Deep Learning and System Programming.
+bio: I am a technology and Linux enthusiast.
 
 interests:
-- Cyber Security
 - Deep Learning
 - System Programming & Operating Systems
+- Information Assurance
+
 
 education:
   courses:
@@ -76,4 +77,4 @@ user_groups:
 - Visitors
 ---
 
-I'm a Computer Engineer in the making and a Tech enthusiast at heart. My research interests are Cyber Security & Deep Learning. I am a promoter of Free and Open Source Software, and often tweet and talk about it. I prominently write about Information Security and Computer internals. My passion lies in building things with my power of programming. Check out my noteworthy projects and Open Source contributions on [GitHub](https://github.com/chaitanyarahalkar).
+I'm a Computer Engineer in the making and a Tech enthusiast at heart. My research interests are Cyber Security & Deep Learning. I love exploring and talking about Computer internals. My passion lies in building things with my power of programming. Check out my noteworthy projects and Open Source contributions on [GitHub](https://github.com/chaitanyarahalkar).
