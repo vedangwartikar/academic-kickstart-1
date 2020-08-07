@@ -66,6 +66,9 @@ social:
 - icon: mastodon
   icon_pack: fab
   link: https://mastodon.technology/@chaitanyarahalkar
+- icon: dev
+  icon_pack: fab
+  link: https://dev.to/chaitanyarahalkar
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
