@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Chaitanya Rahalkar
+name: Vedang Wartikar
 
 # Username (this should match the folder name)
 authors:
@@ -18,12 +18,12 @@ organizations:
   url: "https://unipune.ac.in/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a technology and Linux enthusiast.
+bio: Technology Enthusiast
 
 interests:
-- Deep Learning
-- System Programming & Operating Systems
-- Information Assurance
+- Data Science
+- Python
+- Data Structures and Algorithms
 
 
 education:
@@ -32,7 +32,7 @@ education:
     institution: Pune University
     year: 2020
   - course: Higher Secondary School
-    institution: M.E.S Abasaheb Garware College
+    institution: SP College
     year: 2016
 
 # Social/Academic Networking
@@ -42,33 +42,24 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:chaitanyarahalkar4@gmail.com".
+  link: '#contact'  # For a direct email link, use "mailto:vedangwartikar17@gmail.com".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/chairahalkar
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?hl=en&user=jecjKgEAAAAJ
+  link: https://twitter.com/vedangwartikar
 - icon: github
   icon_pack: fab
-  link: https://github.com/chaitanyarahalkar
+  link: https://github.com/vedangwartikar
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: files/cv.pdf
-- icon: orcid
-  icon_pack: ai 
-  link: https://orcid.org/0000-0003-2350-9793
+  link: https://drive.google.com/file/d/1tk3AHdcfQYnme7cEfOMSFVhCmAkaU7uN/view
 - icon: gitlab
   icon_pack: fab
-  link: https://gitlab.com/chaitanyarahalkar
-- icon: mastodon
-  icon_pack: fab
-  link: https://mastodon.technology/@chaitanyarahalkar
+  link: https://gitlab.com/vedangwartikar
 - icon: dev
   icon_pack: fab
-  link: https://dev.to/chaitanyarahalkar
+  link: https://dev.to/vedangwartikar
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -80,4 +71,4 @@ user_groups:
 - Visitors
 ---
 
-I'm a Computer Engineer in the making and a Tech enthusiast at heart. I love exploring and talking about Computer internals. My passion lies in building things with my power of programming. Check out my noteworthy projects and Open Source contributions on [GitHub](https://github.com/chaitanyarahalkar).
+I’m a Software Engineer and a Technology enthusiast. Working on projects from multiple domains including, but not limited to, Data Science and Automation. Check out my interesting projects on [GitHub](https://github.com/vedangwartikar).
