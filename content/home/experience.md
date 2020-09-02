@@ -18,15 +18,24 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-[[experience]]
-  title = "Intern"
-  company = "BigO Data / Continuous Encryption"
-  company_url = "https://continuousencryption.com"
-  location = "Pune, India"
-  date_start = "2019-07-07"
-  date_end = ""
-  description = """Working on the design and development of a secure software-defined perimeter network. Building, a secure and robust SDN interface, supported with high performance aspects."""
 
+[[experience]]
+  title = "Software Engineering Intern"
+  company = "RhythmFlows"
+  company_url = "https://rhythmflows.com"
+  location = "Pune, India"
+  date_start = "2020-08-08"
+  date_end = ""
+  description = """Building a generic library in Python to check reconcilliation status fortransactions of different business entities. The reconcilliation system helps in analyzing patterns for fraudulent transactions."""
+
+[[experience]]
+  title = "Data Science Intern"
+  company = "Sirpi"
+  company_url = "https://sirpi.io"
+  location = "Pune, India"
+  date_start = "2020-08-08"
+  date_end = ""
+  description = """Restructuring transitions and providing functional enhancements for a Business Chatbot which is built using R tools and frameworks. Solving Reprexes which will further be integrated with complex statistical models."""
 
 [[experience]]
   title = "Project Intern"
@@ -35,36 +44,7 @@ date_format = "Jan 2006"
   location = "Pune, India"
   date_start = "2019-06-06"
   date_end = "2020-06-06"
-  description = """Worked on <i> End-to-End Lung Cancer Screening with Chest Computed Tomography Scans using CNNs and XAI </i> under the guidance of Dr. Bhushan Garware. The project is highly inspired by <a href="https://www.nature.com/articles/s41591-019-0447-x"> this </a> research paper and aims to outperform the current state of the art results.  """
-  
-[[experience]]
-  title = "Project Intern"
-  company = "Quick Heal Technologies"
-  company_url = "https://quickheal.com"
-  location = "Pune, India"
-  date_start = "2019-06-29"
-  date_end = "2019-11-11"
-  description = """Worked on a Zero trust security framework model that allows corporate employees to work securely from any location eliminating the need of VPNs. Check out the project <a href="https://github.com/chaitanyarahalkar/Quick-Heal-Project">here</a>. """
-
-
-[[experience]]
-  title = "Research Intern"
-  company = "Pune Institute of Computer Technology"
-  company_url = "https://pict.edu"
-  location = "Pune, India"
-  date_start = "2019-05-20"
-  date_end = "2019-07-20"
-  description = """Worked on study of side-channel attacks that target virtualisation level (the lowest level of the software stack)   , where the attacker intends to exploit private information from the set of target virtual machines running on the cloud platform."""
-
-
-[[experience]]
-  title = "Intern"
-  company = "Rhythmflows Solutions"
-  company_url = "https://rhythmflows.com"
-  location = "Pune, India"
-  date_start = "2019-01-20"
-  date_end = "2019-07-20"
-  description = """Worked on a bank reconciliation project. Designed and deployed Oracle database on a VPS. Developed a backend system using Django framework for the administration panel, that reconciles transaction records of the bank and transaction history of its customers. Used data analytics to provide a statistical overview of the reconciled records."""
+  description = """Worked on a centralized <i>Slack-API based DevOps System</i> which manages automation tasks on interconnected PCs. These tasks are being deployed using RedHat Ansible with the help of Docker containers. User level queries are processed using NLP."""
 
 
 +++
