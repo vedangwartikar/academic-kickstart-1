@@ -1,14 +1,14 @@
 ---
-title: WebTTY 
-summary: A Swiss Army knife that provides secure tunnels to localhost and allows you to share your terminal as a web application.
+title: Sorting Visualizer 
+summary: Explores different sorting techniques like Insertion Sort, Merge Sort, etc.
 tags:
 - Demo
 date: "2019-03-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://git.io/webtty
+external_link: https://vedangwartikar.github.io/sorting-visualizer
 
 image:
-  caption: WebTTY
+  caption: Sorting Visualizer
   focal_point: Smart
 ---
