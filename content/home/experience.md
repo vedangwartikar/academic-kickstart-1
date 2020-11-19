@@ -20,22 +20,22 @@ date_format = "Jan 2006"
 
 
 [[experience]]
-  title = "Software Engineering Intern"
-  company = "RhythmFlows"
-  company_url = "https://rhythmflows.com"
-  location = "Pune, India"
-  date_start = "2020-08-08"
-  date_end = ""
-  description = """Building a generic library in Python to check reconcilliation status fortransactions of different business entities. The reconcilliation system helps in analyzing patterns for fraudulent transactions."""
-
-[[experience]]
   title = "Data Science Intern"
   company = "Sirpi"
   company_url = "https://sirpi.io"
   location = "Pune, India"
   date_start = "2020-08-08"
-  date_end = ""
+  date_end = "2020-11-11"
   description = """Restructuring transitions and providing functional enhancements for a Business Chatbot which is built using R tools and frameworks. Solving Reprexes which will further be integrated with complex statistical models."""
+  
+[[experience]]
+  title = "Software Engineering Intern"
+  company = "RhythmFlows"
+  company_url = "https://rhythmflows.com"
+  location = "Pune, India"
+  date_start = "2020-08-08"
+  date_end = "2020-10-10"
+  description = """Building a generic library in Python to check reconcilliation status fortransactions of different business entities. The reconcilliation system helps in analyzing patterns for fraudulent transactions."""
 
 [[experience]]
   title = "Project Intern"
