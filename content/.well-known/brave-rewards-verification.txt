@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: vedangwartikar.tech
+Token: 96356877f9eebef63f5387913408795efda6cf778c57e1eb1a7710882c3741df
