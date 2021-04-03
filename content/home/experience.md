@@ -25,7 +25,10 @@ date_format = "Jan 2006"
   location = "Pune, India"
   date_start = "2020-11-11"
   date_end = ""
-  description = """Building a Deep Learning model for Human Presence Detection from live feed of a Drone cam"""
+  description = """• Built a Keras model along with Flask end-points for a crowd detection system.
+  • Writing build scripts for Open Source packages to run on IBM POWER8 systems with ppc64le architecture.
+  • Building and validating the OSS packages using Docker containers with Linux distros, especially RHEL and Centos 8.
+  • Developing a tool in Python to cross-verify the availability of packages on IBM OSPAT(Open Source POWER Availability Tool) search engine and version trackers, package          managers like PyPI, npm, conda-forge for ppc64le."""
   
 [[experience]]
   title = "Data Science Intern"
