@@ -25,10 +25,12 @@ date_format = "Jan 2006"
   location = "Pune, India"
   date_start = "2020-11-11"
   date_end = ""
-  description = """• Built a Keras model along with Flask end-points for a crowd detection system 
-  • Writing build scripts for Open Source packages to run on IBM POWER8 systems with ppc64le architecture 
-  • Building and validating the OSS packages using Docker containers with Linux distros, especially RHEL and Centos 8 
-  • Developing a tool in Python to cross-verify the availability of packages on IBM OSPAT(Open Source POWER Availability Tool) search engine and version trackers, package          managers like PyPI, npm, conda-forge for ppc64le"""
+  description = """• Developing a tool in Python to validate open-source packages on IBM's Power8 machines
+• The primary goal of this tool is to introduce parity between Intel's x86 and IBM's ppc64le architectures
+• The tool which uses independent & detached docker containers to automate the process of installing/building/testing open-source packages from a variety of languages and frameworks has reduced the team’s manual effort by 80%
+• Writing build scripts for Open Source packages to run on IBM POWER8 systems with ppc64le architecture
+• Building and validating the OSS packages using Docker containers with Linux distros, especially RHEL and Centos 8
+• Built a Keras model along with Flask end-points for a crowd detection system"""
   
 [[experience]]
   title = "Data Science Intern"
