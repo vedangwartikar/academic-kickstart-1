@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Undergraduate Student
+role: Software Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -48,12 +48,12 @@ social:
   link: https://twitter.com/vedangwartikar
 - icon: github
   icon_pack: fab
-  link: https://github.com/vedangwartikar
+  link: https://github.vedang.dev
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
   icon_pack: ai
-  link: https://drive.google.com/file/d/1tk3AHdcfQYnme7cEfOMSFVhCmAkaU7uN/view
+  link: https://resume.vedang.dev
 - icon: gitlab
   icon_pack: fab
   link: https://gitlab.com/vedangwartikar
