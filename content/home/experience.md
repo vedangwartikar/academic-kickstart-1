@@ -40,10 +40,10 @@ date_format = "Jan 2006"
   date_start = "2020-08-08"
   date_end = "2020-11-11"
   description = """  
-  ○  Responsible for the development of Wind Shear Application, built using R, Shiny Framework and AWS Stack, which uses machine learning techniques to predict windspeeds at target heights, which is used by Wind Engineers  
-  ○  Built an end-to-end Business Chatbot using R frameworks and Plumber APIs with Twilio endpoints along with a Shiny based interactive admin dashboard UI  
-  ○  Worked on project which simulates electromagnetic fields using multiple parameters in 3D space  
-  ○  Solved multiple Reprexes which are further integrated with complex statistical models"""
+  •  Responsible for the development of Wind Shear Application, built using R, Shiny Framework and AWS Stack, which uses machine learning techniques to predict windspeeds at target heights, which is used by Wind Engineers  
+  •  Built an end-to-end Business Chatbot using R frameworks and Plumber APIs with Twilio endpoints along with a Shiny based interactive admin dashboard UI  
+  •  Worked on project which simulates electromagnetic fields using multiple parameters in 3D space  
+  •  Solved multiple Reprexes which are further integrated with complex statistical models"""
   
 [[experience]]
   title = "Software Engineering Intern"
@@ -52,7 +52,10 @@ date_format = "Jan 2006"
   location = "Pune, India"
   date_start = "2020-08-08"
   date_end = "2020-10-10"
-  description = """Building a generic library in Python to check reconcilliation status fortransactions of different business entities. The reconcilliation system helps in analyzing patterns for fraudulent transactions."""
+  description = """• Mentored and lead a small team for an Analytics product developed in-house using R for bank reconciliation  
+  • Responsible for the design and backend development of an AEPS (Aadhaar Enabled Payment System) based product, which involved computation of the transaction flow of a multilevel hierarchy  
+  • Implemented a generic library to check reconciliation status for large scale transactions of different business entities using Python, ORM based SQLAlchemy. The reconciliation system helps in analyzing patterns for fraudulent transactions  
+  • Worked on an API-Hub which provides uniform and secured handling of API push/pull requests from multiple banking entities"""
 
 [[experience]]
   title = "Project Intern"
